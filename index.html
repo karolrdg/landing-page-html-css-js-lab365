@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="shortcut icon" href="img/icons8-escudo-com-um-cifrão-48.png" type="image/x-icon">
+    <title>Landing Page - Projeto LAB 365</title>
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+
+        <div class="github">
+            <a href="https://github.com/karolrdg" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+
+    </header>
+
+    <main aria-label="conteúdo principal do site">
+        <section class="text">
+            <h1 class="titulo">Transforme sua vida financeira com nosso app <span>_</span></h1>
+            <p class="subtitulo">Controle suas despesas, acompanhe sua situação financeira e alcance seus objetivos
+                financeiros com facilidade <span>_</span>
+            </p>
+
+
+            <p class="descricao">Nossa plataforma de gerenciamento financeiro pessoal é fácil de usar e ajuda você a
+                controlar suas despesas,
+                acompanhar sua situação financeira e alcançar seus objetivos financeiros. Com categorização
+                automática
+                de
+                despesas e receitas, alertas financeiros personalizados e relatórios detalhados, você terá uma visão
+                completa de suas finanças <span>_</span></p>
+
+                <form id="form">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                  
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                  
+                    <label for="age">Idade:</label>
+                    <input type="number" id="age" name="age">
+                  
+                    <label for="gender">Gênero:</label>
+                    <select id="gender" name="gender">
+                      <option value="">Selecione</option>
+                      <option value="male">Masculino</option>
+                      <option value="female">Feminino</option>
+                      <option value="other">Outro</option>
+                    </select>
+                    <button type="submit" class="btn btn-secondary" id="gbutton">Entre em contato</button>
+                  </form>
+                  <div id="thankYouMessageContainer" style="display: none;">
+                    <p id="thankYouMessage">Obrigado por entrar em contato conosco! Responderemos o mais breve possível :)</p>
+                  </div>
+                  
+                  </div>
+        </section>
+
+        <section class="imagem">
+            <img class="imagem-principal" src="img/imagem-principal.png"
+                alt="app de finanças pessoais em uma tela de celular">
+        </section>
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+        <script src="js/scripts.js"></script>
+</body>
+
+</html>
